@@ -35,7 +35,7 @@ jobs:
     - name: Azure Login
       uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: ${{ secrets.AZURE_CREDENTAILS }}
 
     # Login to Azure Container Registry (ACR)
     - name: Login to Azure Container Registry
